@@ -1,2 +1,2 @@
-# 4DN4
-labs for 4DN4 embedded systems
+# 4DS4
+labs for 4DS4 embedded systems
