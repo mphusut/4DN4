@@ -74,6 +74,13 @@ void BOARD_InitPins(void)
     PORT_SetPinMux(PORTC, 13U, kPORT_MuxAlt3);
     PORT_SetPinMux(PORTC, 14U, kPORT_MuxAlt3);
     PORT_SetPinMux(PORTC, 15U, kPORT_MuxAlt3);
+    
+    PORT_SetPinMux(PORTB, 8U, kPORT_MuxAsGpio); //kept as 1
+    PORT_SetPinMux(PORTB, 10U, kPORT_MuxAlt2);  // accel
+    PORT_SetPinMux(PORTB, 17U, kPORT_MuxAlt2); //miso
+    PORT_SetPinMux(PORTB, 11U, kPORT_MuxAlt2); //sck
+    PORT_SetPinMux(PORTB, 16U, kPORT_MuxAlt2); //mosi
+    PORT_SetPinMux(PORTA, 25U, kPORT_MuxAsGpio);
 
 
     /* PORTA2 (pin K6) is configured as TRACE_SWO */
